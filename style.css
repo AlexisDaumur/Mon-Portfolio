@@ -1,0 +1,166 @@
+*{
+  margin: 0 0 0 0;
+  width: 100%;
+}
+body{
+  margin: 0 0 0 0;
+  padding: 0px;
+  margin: auto;
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url(img/DJI.png) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 500vh;
+}
+h1{
+  color: white;
+  font-size: 60px;
+  font-family: "Gotham",Montserrat,sans-serif;
+  letter-spacing: 0.05em;
+  font-weight: 800;
+  text-align: center;
+}
+h2{
+  margin: -10px 0 0 0;
+  color: white;
+  font-size: 60px;
+  font-family: "Gotham",Montserrat,sans-serif;
+  letter-spacing: 0.05em;
+  font-weight: 800;
+  width: 100%;
+  text-align: center;
+}
+h5{
+  font-family: 'Arizonia', cursive;
+  font-size: 60px;
+  margin: 0px 0 0 0;
+  color: white;
+  position: fixed;
+  left: 3%;
+  top: 2%;
+  width: 20%;
+}
+ul{
+  margin: 8% 0 0 0;
+  font-size: 25px;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+  text-transform: uppercase;
+  list-style: none;
+  position: fixed;
+  font-family: "Gotham",Montserrat,sans-serif;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.mestitres{
+  flex-direction: row;
+  width: 100%;
+  position: relative;
+  top: 20%;
+}
+section{
+  width: 75%;
+  margin: 0 0 0 25%;
+  display: flex;
+  height: 100vh;
+  flex-direction: row;
+}
+section p{
+  font-size: 20px;
+  width: 90%;
+  font-family: "Gotham",Montserrat,sans-serif;
+}
+.div1{
+  padding-top: 20px;
+  width: 100%;
+
+}
+section img{
+  margin: 0 0 0 0;
+  width: 130px;
+  border-radius:30px;
+}
+.hoverproject:hover{
+  opacity: 0.5;
+ filter: alpha(opacity=50);
+}
+#apropos{
+  margin-top: 10%;
+  color: white;
+  font-size: 10px;
+  font-family: "Gotham",Montserrat,sans-serif;
+}
+.pdp{
+  margin: 0 0 0 0;
+  height: 300px;
+  width: 300px;
+  border-radius:30px;
+
+}
+#section2{
+  height: 100vh;
+  margin: 0 0 0 22%;
+  display: flex;
+}
+#section2 img{
+  margin: 0 0 0 0;
+  height: 400px;
+  width: 30%;
+  border-radius:30px;
+}
+#h1_contact{
+  text-align: center;
+}
+.form_contact{
+  width: 20%;
+  margin: 10% 0 0 0;
+  padding: 0px;
+  margin: auto;
+}
+p{
+  color: white;
+}
+#menu{
+  margin: 0 0 0 0;
+  width: 75%;
+  height: 100vh;
+  float: right;
+}
+#apropos{
+  margin: 0 0 50px 0;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 700;
+}
+.imagesCompétences img{
+}
+footer{
+  opacity: 0.5;
+  height: 75px;
+  width: 100%;
+  background-color: black;
+}
+.monMenu{
+  width: 0px;
+}
+.divapropostext{
+  padding-top: 25vh;
+  width: 65%;
+}
+.aproposimg{
+  width: 35%;
+  padding-top: 25vh;
+}
+.divmescompetences{
+  width: 100%;
+  padding-top: 20vh;
+}
